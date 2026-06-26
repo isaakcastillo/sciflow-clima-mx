@@ -26,7 +26,7 @@ Stochastic Field Theory, and Formal Verification}
 We present a systematic cross-domain gap analysis of 187 peer-reviewed
 articles spanning six knowledge domains: climate prediction, game theory
 (Nash equilibrium), stochastic differential equations, formal verification,
-physics-informed machine learning~\citep{Raissi2019}, and regional climatology of Mexico.
+physics-informed machine learning~\citep{Raissi2019, LeCun2015}, and regional climatology of Mexico.
 Using the SCIFLOW CrossDomain-Matrix methodology and 24 structured Scopus
 queries organized in four specificity levels, we identify 11 confirmed
 literature gaps, including a Super-Gap at the triple intersection of
@@ -35,13 +35,15 @@ and formal mathematical verification applied to regional climate prediction.
 While Nash equilibrium appears extensively in climate diplomacy (20 papers;~\citealt{Forgo2005})
 and carbon markets (11 papers;~\citealt{Haurie2004}), it has never been applied as a physical
 principle governing competing atmospheric mass dynamics. Similarly,
-stochastic primitive equations exist mathematically \citep{Debussche2012,
+stochastic primitive equations exist mathematically~\citep{Debussche2012, Guo2021} \citep{Debussche2012,
 Majda2006} but without Nash solutions or formal verification.
 We propose a theoretical framework --- the Nash-EDE Climate Model (NECM) ---
 that fills this gap, derive its core falsifiable prediction
 ($\gamma_{PG}/\sqrt{\beta_P\beta_G} \in [1.2, 2.5]$ distinguishes
 stable bimodal precipitation regimes), and outline a research agenda
 of seven articles derivable from this foundation.
+
+\noindent\textbf{Code availability:} DOI: 10.5281/zenodo.20942657
 \end{abstract}
 
 
@@ -110,7 +112,7 @@ index~\citep{Nash1950}, a standard hydrological performance metric, and
 ``lean'' appeared in the sense of ``lean season'' or ``lean year'' in
 hydroclimatological contexts. No paper in the corpus applies Nash
 equilibrium from game theory alongside formal theorem provers such as
-LeanFour2021 to any physical or climate model. This false-positive detection
+Lean4 to any physical or climate model. This false-positive detection
 step is a required component of the CrossDomain-Matrix protocol.
 
 % FIGURA 1 placeholder
@@ -254,8 +256,8 @@ disciplinary pattern (Table~\ref{tab:thematic}):
 
 Nash equilibrium appears in climate science exclusively in two guises:
 (1)~diplomatic — 20 papers modeling climate negotiations between nations
-as strategic games \citep{DeCanio2013, Forgo2005}; (2)~economic — 11
-papers on carbon markets, emission permit allocation, and low-carbon
+as strategic games~\citep{DeCanio2013, Forgo2005, Breton2003, Long2018}; (2)~economic — 11
+papers on carbon markets, emission permit allocation~\citep{Haurie2004}, and low-carbon
 supply chains \citep{Hamidoglu2024}. In both cases, the ``players'' are
 human agents (governments, firms) and the ``strategies'' are economic or
 political choices. The idea that atmospheric air masses could be
@@ -274,8 +276,8 @@ equilibrium or formal verification.
 
 Formal verification in climate modeling is represented by a single paper
 from 2026 applying physics-informed neural networks to clean combustion,
-which mentions verification in passing. No climate model has been
-formally verified in LeanFour2021 or any other theorem prover.
+which mentions verification in passing~\citep{Combustion2026}. No climate model has been
+formally verified in Lean4 or any other theorem prover.
 
 \begin{table}[ht]
 \centering
@@ -324,10 +326,10 @@ interpret physically at regional scales, and produces outputs that are
 challenging to verify formally.
 
 We identify three mathematical frameworks that have each, independently,
-advanced the understanding of complex competitive systems, yet have never
+advanced the understanding of complex competitive systems~\citep{Ghil2002}, yet have never
 been applied jointly to atmospheric dynamics:
 
-\textbf{Nash equilibrium} from non-cooperative game theory~\citep{Osborne1994} provides a
+\textbf{Nash equilibrium} from non-cooperative game theory~\citep{Osborne1994, Fudenberg1991} provides a
 rigorous criterion for stable coexistence of competing agents. In the
 context of regional climate, atmospheric air masses — Pacific maritime,
 Gulf of Mexico maritime, and continental dry — compete for dominance
@@ -340,14 +342,14 @@ Fokker-Planck and Langevin formulations, provide the natural mathematical
 language for systems driven by deterministic dynamics plus random
 forcing. The atmosphere is precisely such a system: large-scale
 circulation provides the deterministic backbone, while turbulence,
-convection, and mesoscale variability act as stochastic forcing.
+convection, and mesoscale variability act as stochastic forcing~\citep{Frankignoul2012}.
 \citet{Debussche2012} proved existence and regularity for the 3D
 stochastic primitive equations, establishing the mathematical foundation.
 \citet{Majda2006} linked planetary wave non-Gaussianity to Fokker-Planck
 dynamics. Neither work introduces game-theoretic structure.
 
 \textbf{Formal mathematical verification} using theorem provers such as
-LeanFour2021~\citep{LeanFour2021} provides machine-checked proofs of mathematical
+Lean4~\citep{LeanFour2021, Mathlib2020} provides machine-checked proofs of mathematical
 propositions. Applied to climate models, formal verification could
 guarantee properties such as conservation of energy, positivity of
 probability distributions, and stability of equilibria — properties
@@ -465,7 +467,7 @@ while regions outside this interval will exhibit either year-round
 precipitation or irregular aperiodic regimes.}
 \end{quote}
 
-This prediction is testable with existing ERA5 reanalysis data~\citep{Hersbach2020} and
+This prediction is testable with existing ERA5 reanalysis data~\citep{Hersbach2020, Beck2020} and
 SMN station records without requiring new observations.
 
 \subsection{Stochastic Extension}
@@ -497,7 +499,7 @@ where $\mathbf{F}$ is the deterministic drift and $D$ is the diffusion
 coefficient determined by the noise covariance. This equation admits
 the Nash equilibrium dominance fractions as natural boundary conditions.
 
-\subsection{Formal Verification in LeanFour2021}
+\subsection{Formal Verification in Lean4}
 
 Three propositions of NECM are amenable to formal verification:
 
@@ -516,7 +518,7 @@ probability distribution $\rho(T,\mathbf{x},t)$ remains non-negative
 for all times if the initial condition $\rho_0 \geq 0$ and the
 diffusion coefficient $D > 0$.
 
-Formal proofs of these propositions in LeanFour2021 constitute Art.C3 of the
+Formal proofs of these propositions in Lean4 constitute Art.C3 of the
 research agenda.
 
 
@@ -605,7 +607,7 @@ bimodal structure consistent with known climatology.}
 \label{fig:multiregion}
 \end{figure}
 
-\section{Research Agenda}
+\section{Research Agenda}\label{sec:agenda}
 
 The Super-Gap identified in Section~3 and the NECM framework proposed
 in Section~4 together support a coherent research agenda of seven
@@ -627,7 +629,7 @@ with Mexican orography.
 Gap: S10~=~0, S16~=~0.
 Target: \textit{Climate Dynamics} (Q1).
 
-\textbf{Art.C3}: LeanFour2021 formal verification of NECM Propositions 1--3.
+\textbf{Art.C3}: Lean4 formal verification of NECM Propositions 1--3.
 Gap: S11~=~0, S18~=~0, S24~=~0.
 Target: \textit{Formal Aspects of Computing} (Q1).
 
@@ -642,10 +644,32 @@ Gap: S05~=~62 papers exist but none use Nash as physical backbone.
 Target: \textit{npj Climate and Atmospheric Science} (Q1).
 
 \textbf{Art.C6}: Empirical validation of NECM using SMN station
-network and ERA5 reanalysis~\citep{Hersbach2020} over Mexico, 1980--2025.
+network and ERA5 reanalysis~\citep{Hersbach2020, Munoz2021} over Mexico, 1980--2025.
 Gap: S01~=~48 papers exist but none use Nash or EDE framework.
 Target: \textit{International Journal of Climatology} (Q1).
 
+
+
+\section{Code and Data Availability}
+
+The SCIFLOW-CLIMA-MX code, manuscript, figures, and data files
+are publicly available at:
+
+\begin{itemize}
+\item GitHub: \url{https://github.com/isaakcastillo/sciflow-clima-mx}
+\item Zenodo: \url{https://zenodo.org/records/20942657} (DOI: 10.5281/zenodo.20942657)
+\end{itemize}
+
+ERA5 climate data were retrieved via the Open-Meteo API
+(\url{https://open-meteo.com}), which provides free access to
+ERA5 reanalysis data~\citep{Hersbach2020}.
+Scopus literature data were retrieved via the Elsevier Scopus API
+under institutional access at Universidad Autónoma Chapingo.
+All retrieved data are included in the repository.
+
+The SCIFLOW platform is registered under INDAUTOR (Mexican
+Institute of Intellectual Property), registration 2026,
+Universidad Autónoma Chapingo, Texcoco, México.
 
 \section{Discussion}
 
@@ -694,6 +718,13 @@ $\gamma_{ij}$ and seasonal temperatures $T_{m,i}$ must be estimated
 from data; their identifiability from available observations is not
 yet established.
 
+
+
+\section*{Author Contributions}
+
+J.I. Castillo-Sánchez: Conceptualization, Methodology, Software,
+Formal Analysis, Investigation, Data Curation, Writing (original draft,
+review and editing), Visualization.
 
 \section{Conclusions}
 

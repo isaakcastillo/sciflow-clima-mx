@@ -34,12 +34,17 @@ for regional climate prediction combining:
 - ERA5 reanalysis: Open-Meteo API (https://open-meteo.com)
 - Literature gaps: Scopus API (queries S01-S24, D4-D8)
 
+## DOI
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20942657.svg)](https://doi.org/10.5281/zenodo.20942657)
+
 ## Citation
 
 Castillo-Sánchez, J.I. (2026). A CrossDomain Gap Analysis Reveals 
 an Unexplored Mathematical Framework for Regional Climate Prediction: 
 Nash Equilibrium, Stochastic Field Theory, and Formal Verification. 
 *Geoscientific Model Development* (submitted).
+DOI: 10.5281/zenodo.20942657
 
 ## License
 
