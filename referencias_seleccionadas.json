@@ -1,0 +1,226 @@
+{
+  "nash_diplomatico": [
+    {
+      "title": "Game theory and climate diplomacy",
+      "doi": "10.1016/j.ecolecon.2011.04.016",
+      "authors": "DeCanio S.",
+      "journal": "Ecological Economics",
+      "year": "2013",
+      "abstract": "",
+      "citations": 82,
+      "keywords": ""
+    },
+    {
+      "title": "Game theoretic models for climate change negotiations",
+      "doi": "10.1016/j.ejor.2003.06.025",
+      "authors": "Forgó F.",
+      "journal": "European Journal of Operational Research",
+      "year": "2005",
+      "abstract": "",
+      "citations": 42,
+      "keywords": ""
+    },
+    {
+      "title": "Limit game models for climate change negotiations",
+      "doi": "10.1007/978-3-319-70619-1_2",
+      "authors": "Bahn O.",
+      "journal": "Annals of the International Society of Dynamic Games",
+      "year": "2017",
+      "abstract": "",
+      "citations": 3,
+      "keywords": ""
+    },
+    {
+      "title": "Coordinated emission reduction strategy of water pollution and carbon emissions in the South-to-North Water Diversion Project based on a differential game model",
+      "doi": "10.2166/ws.2024.115",
+      "authors": "Chen J.",
+      "journal": "Water Supply",
+      "year": "2024",
+      "abstract": "",
+      "citations": 2,
+      "keywords": ""
+    },
+    {
+      "title": "Stochastic Differential Games of Carbon Emission Reduction in the Four-Tier Supply Chain System Based on Reference Low-Carbon Level",
+      "doi": "10.3390/su16198674",
+      "authors": "Li L.",
+      "journal": "Sustainability Switzerland",
+      "year": "2024",
+      "abstract": "",
+      "citations": 2,
+      "keywords": ""
+    }
+  ],
+  "nash_economico": [
+    {
+      "title": "A novel Nash-based low-carbon implementation in agricultural supply chain management",
+      "doi": "10.1016/j.jclepro.2024.141846",
+      "authors": "Hamidoğlu A.",
+      "journal": "Journal of Cleaner Production",
+      "year": "2024",
+      "abstract": "",
+      "citations": 47,
+      "keywords": ""
+    },
+    {
+      "title": "Allocation of Emissions Permit for China's Iron and Steel Industry in an Imperfectly Competitive Market: A Nash Equilibrium DEA Method",
+      "doi": "10.1109/TEM.2019.2904985",
+      "authors": "Lee C.Y.",
+      "journal": "IEEE Transactions on Engineering Management",
+      "year": "2021",
+      "abstract": "",
+      "citations": 23,
+      "keywords": ""
+    },
+    {
+      "title": "Economic benefit evaluation of water resources allocation in transboundary basins based on particle swarm optimization algorithm and cooperative game model-A case study of Lancang-Mekong River Basin",
+      "doi": "10.1371/journal.pone.0265350",
+      "authors": "Bi F.",
+      "journal": "Plos One",
+      "year": "2022",
+      "abstract": "",
+      "citations": 6,
+      "keywords": ""
+    },
+    {
+      "title": "Choice of supplier development strategies choice in competitive electric vehicle supply chains with power battery recycling",
+      "doi": "10.13587/j.cnki.jieem.2024.05.016",
+      "authors": "Feng Z.",
+      "journal": "Journal of Industrial Engineering and Engineering Management",
+      "year": "2024",
+      "abstract": "",
+      "citations": 1,
+      "keywords": ""
+    }
+  ],
+  "ede_atmosferica": [
+    {
+      "title": "Global existence and regularity for the 3D stochastic primitive equations of the ocean and atmosphere with multiplicative white noise",
+      "doi": "10.1088/0951-7715/25/7/2093",
+      "authors": "Debussche A.",
+      "journal": "Nonlinearity",
+      "year": "2012",
+      "abstract": "",
+      "citations": 65,
+      "keywords": ""
+    },
+    {
+      "title": "ASYMPTOTIC BEHAVIOR OF 3-D STOCHASTIC PRIMITIVE EQUATIONS OF LARGE-SCALE MOIST ATMOSPHERE WITH ADDITIVE NOISE*",
+      "doi": "10.4310/CMS.2021.v19.n1.a1",
+      "authors": "Wang L.",
+      "journal": "Communications in Mathematical Sciences",
+      "year": "2021",
+      "abstract": "",
+      "citations": 1,
+      "keywords": ""
+    }
+  ],
+  "pinn_clima": [
+    {
+      "title": "AI-driven Physics Informed Neural Network for Daily Temperature Forecasting with Constraint Aware Learning and Explainable Feature Attribution",
+      "doi": "10.21015/vtse.v13i4.2231",
+      "authors": "Inam S.A.",
+      "journal": "Vfast Transactions on Software Engineering",
+      "year": "2025",
+      "abstract": "",
+      "citations": 15,
+      "keywords": ""
+    },
+    {
+      "title": "A Novel Approach toward Windspeed Forecasting using an Advanced Deep Learning Framework with Explainable AI",
+      "doi": "10.21015/vtse.v13i3.2230",
+      "authors": "Inam S.A.",
+      "journal": "Vfast Transactions on Software Engineering",
+      "year": "2025",
+      "abstract": "",
+      "citations": 15,
+      "keywords": ""
+    },
+    {
+      "title": "Application of artificial neural network for forecasting standardized precipitation and evapotranspiration index: A case study of Nigeria",
+      "doi": "10.1002/eng2.12194",
+      "authors": "Ogunrinde A.T.",
+      "journal": "Engineering Reports",
+      "year": "2020",
+      "abstract": "",
+      "citations": 14,
+      "keywords": ""
+    },
+    {
+      "title": "A physics informed deep learning framework for rainfall forecasting in diverse climatic regions",
+      "doi": "10.1007/s44163-026-00833-z",
+      "authors": "Inam S.A.",
+      "journal": "Discover Artificial Intelligence",
+      "year": "2026",
+      "abstract": "",
+      "citations": 8,
+      "keywords": ""
+    },
+    {
+      "title": "Artificial neural network-empowered projected future rainfall intensity-duration-frequency curves under changing climate",
+      "doi": "10.1016/j.atmosres.2023.107122",
+      "authors": "Takhellambam B.S.",
+      "journal": "Atmospheric Research",
+      "year": "2024",
+      "abstract": "",
+      "citations": 6,
+      "keywords": ""
+    }
+  ],
+  "mexico_regional": [],
+  "stochastic_clima": [],
+  "verificacion_formal": [
+    {
+      "title": "Physics-informed neural networks in clean combustion: A pathway to sustainable aerospace propulsion",
+      "doi": "10.1016/j.cherd.2026.01.008",
+      "authors": "Mousavi M.",
+      "journal": "Chemical Engineering Research and Design",
+      "year": "2026",
+      "abstract": "",
+      "citations": 1,
+      "keywords": ""
+    }
+  ],
+  "game_theory_general": [
+    {
+      "title": "Spatial vs. non-spatial transboundary pollution control in a class of cooperative and non-cooperative dynamic games",
+      "doi": "10.1016/j.ejor.2018.12.045",
+      "authors": "de Frutos J.",
+      "journal": "European Journal of Operational Research",
+      "year": "2019",
+      "abstract": "",
+      "citations": 37,
+      "keywords": ""
+    },
+    {
+      "title": "Enforcing the climate regime: Game theory and the marrakesh accords",
+      "doi": "10.1023/B:INEA.0000019026.02330.da",
+      "authors": "Hovi J.",
+      "journal": "International Environmental Agreements Politics Law and Economics",
+      "year": "2003",
+      "abstract": "",
+      "citations": 17,
+      "keywords": ""
+    },
+    {
+      "title": "Are the current incentives sufficient to drive the use of solar PV in the Colombian residential sector? - An analysis from the perspective of the game theory",
+      "doi": "10.1016/j.esr.2022.100816",
+      "authors": "Guzman L.",
+      "journal": "Energy Strategy Reviews",
+      "year": "2022",
+      "abstract": "",
+      "citations": 11,
+      "keywords": ""
+    },
+    {
+      "title": "A Game Theory Approach Using the TLBO Algorithm for Generation Expansion Planning by Applying Carbon Curtailment Policy",
+      "doi": "10.3390/en15031172",
+      "authors": "Mahvizani S.H.J.",
+      "journal": "Energies",
+      "year": "2022",
+      "abstract": "",
+      "citations": 9,
+      "keywords": ""
+    }
+  ]
+}

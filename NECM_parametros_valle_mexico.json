@@ -1,0 +1,20 @@
+{
+  "region": "Valle de Mexico",
+  "periodo": "2020-2024",
+  "fuente": "ERA5 via Open-Meteo",
+  "N_horas": 43848,
+  "T_mP": 20.65038228735266,
+  "T_mG": 14.940097905564507,
+  "T_mC": 19.77663323544079,
+  "beta_P": 1.0,
+  "beta_G": 0.8617085964197656,
+  "beta_C": 0.9527578280751556,
+  "gamma_PG": 0.478636284892146,
+  "gamma_PC": 0.4235480711241613,
+  "gamma_GC": 0.4967335365102338,
+  "ratio_PG": 0.5156148373880002,
+  "prediccion": "fuera de rango",
+  "coexistencia_PG": true,
+  "coexistencia_PC": true,
+  "coexistencia_GC": true
+}
